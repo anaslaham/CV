@@ -202,7 +202,7 @@ body {
     background-image: url(../SVG/2ndPage.svg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 2000px;
+    height: 1700px;
     background-position: top;
     position: relative;
     bottom: 100px;
@@ -211,7 +211,8 @@ body {
   .Name {
     width: 350px;
     height: auto;
-    margin-left: 20px;
+    position: relative;
+    right: 25px;
   }
 
   .Artwork {
@@ -250,6 +251,17 @@ body {
   .card-title {
     font-size: 2rem;
   }
+  .Logo {
+    width: 150px;
+    height: auto;
+  }
+  .mt {
+    position: relative;
+    top: 50px;
+    left: 50px;
+    font-size: 1.2rem;
+  }
+
 }
 
 .Arrowtop {
